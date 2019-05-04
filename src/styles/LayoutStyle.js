@@ -6,7 +6,7 @@ export const Container = styled.div`
     margin: 0 auto;
     padding: 20px 0 20px 0;
     max-width: 70vw;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: space-evenly;
     align-items: center;
 
