@@ -39,7 +39,7 @@ const IndexPage = () => {
                         I always make sure that there is no bug left behind.
                     </p> 
                     <div id="buttons">
-                        <a href="https://twitter.com/SunilDy9" target="_blank"><TwitterBtn className="btn"><FaTwitter /> Follow me!</TwitterBtn></a>
+                        <a href="https://twitter.com/SunilDy9" target="_blank" rel="noopener noreferrer"><TwitterBtn className="btn"><FaTwitter /> Follow me!</TwitterBtn></a>
                         <Button className="btn" id="projects"><StyledLink to="/projects">View my Work</StyledLink></Button>
                     </div>
                 </div>

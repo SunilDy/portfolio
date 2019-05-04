@@ -14,8 +14,8 @@ const Container = styled.div`
     align-items: center;
 
     > #pic {
-      min-width: 150px;
-      height: 150px;
+      max-width: 150px;
+      max-height: 150px;
       margin: 15px;
       border-radius: 50%;
       border: grey 3px solid .7;
@@ -94,6 +94,12 @@ const Container = styled.div`
         box-shadow: none;
         border: none;
         flex-direction: column;
+        
+        > #pic {
+            margin: 0;
+            padding: 0;
+        }
+
     }
 
     @media (max-width: 600px) {
